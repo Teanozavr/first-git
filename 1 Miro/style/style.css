@@ -1,0 +1,77 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #050038;
+}
+
+*::selection {
+    background-color: rgb(21, 179, 140);
+    color: #ffffff;
+}
+
+nav ul,
+footer ul {
+    list-style: none;
+}
+
+#regButton {
+    width: 440px;
+    background: #4262FF;
+    height: 51px;
+    border-radius: 32px;
+    border: #4262FF;
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+#regButton:hover {
+    background-color: #050038;
+}
+
+
+.url {
+    color: #4262FF;
+    font-size: 18px;
+}
+
+.url:hover {
+    color: #050038;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+}
+
+h1::first-letter {
+    color: red;
+}
+
+h2 {
+
+    font-size: 48px;
+    font-weight: 500;
+}
+
+.samePar {
+    color: rgba(5, 0, 56, 0.6);
+}
+
+#smallPar {
+    font-size: 14px;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+.sectionList li::marker {
+    content: url(../images/yes.svg);
+
+}
+
+
+footer a {
+    text-decoration: none;
+}
